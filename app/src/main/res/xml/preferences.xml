@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="@string/miscellaneous_title"
+        android:key="miscellaneous_settings">
+        <CheckBoxPreference
+            android:key="sort_by_date"
+            android:summary="@string/sort_by_date_summary"
+            android:defaultValue="false"
+            android:title="@string/sort_by_date_title" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="@string/notifications"
+        android:key="notification_settings">
+        <CheckBoxPreference
+            android:key="notifications_enabled"
+            android:summary="@string/notifications_enabled_preference_summary"
+            android:title="@string/notifications_enabled_preference_title"
+            android:defaultValue="false"/>
+        <com.abyx.noticer.TimePreference
+            android:title="@string/alarm_preference_title"
+            android:summary="@string/alarm_preference_summary"
+            android:key="alarm_time" />
+    </PreferenceCategory>
+</PreferenceScreen>

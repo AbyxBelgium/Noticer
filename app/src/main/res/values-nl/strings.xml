@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Noticer</string>
+    <string name="about">Over</string>
+    <string name="accuracy_preference_summary">Het aantal decimalen dat weergegeven wordt</string>
+    <string name="accuracy_preference_title">Nauwkeurigheid</string>
+    <string name="action_settings">Instellingen</string>
+    <string name="alarm_preference_summary">Kies het tijdstip waarop Noticer je een notificatie moet sturen.</string>
+    <string name="alarm_preference_title">Tijdstip alarm</string>
+    <string name="appearance">Uiterlijk</string>
+    <string name="cancel">Annuleren</string>
+    <string name="details">Details</string>
+    <string name="developer">Ontwikkelt door:</string>
+    <string name="developer_value">ABYX Inc.</string>
+    <string name="done">Klaar</string>
+    <string name="empty_field_error">Dit veld mag niet leeg zijn</string>
+    <string name="location">Locatie</string>
+    <string name="not_a_number_error">Geef een geldig nummer in aub</string>
+    <string name="notification_message">Het is tijd om je dagelijkse uitgaven te registreren!</string>
+    <string name="notification_title">Registreer je uitgaven</string>
+    <string name="notifications">Notificaties</string>
+    <string name="notifications_enabled_preference_summary">Schakel deze instelling in om elke dag, op een specifiek tijdstip, herinneringen te ontvangen die je helpen je dagelijkse uitgaven in te vullen.</string>
+    <string name="notifications_enabled_preference_title">Herinneringen inschakelen?</string>
+    <string name="occasion">Gelegenheid</string>
+    <string name="price">Prijs</string>
+    <string name="remove">Verwijder geselecteerde</string>
+    <string name="remove_all">Alles verwijderen</string>
+    <string name="remove_all_message">Ben je zeker dat je alle gegevens wilt verwijderen?</string>
+    <string name="set">Instellen</string>
+    <string name="title_activity_about">Over</string>
+    <string name="title_activity_add">Uitgaven toevoegen</string>
+    <string name="title_activity_date">Kies een datum</string>
+    <string name="title_activity_settings">Instellingen</string>
+    <string name="total_expenses">Totale uitgaven:</string>
+    <string name="version">Versie:</string>
+    <string name="website">Website:</string>
+    <string name="website_value">http://abyx.be</string>
+    <string name="yes">Ja</string>
+    <string name="no">Nee</string>
+    <string name="miscellaneous_title">Verscheidene</string>
+    <string name="sort_by_date_title">Sorteren op datum</string>
+    <string name="sort_by_date_summary">Sorteer alle uitgaven op datum in plaats van locatie.</string>
+    <string name="sort">Sorteer</string>
+    <string name="edit_title">Bewerk</string>
+    <string name="title_activity_edit">Bewerken</string>
+</resources>
