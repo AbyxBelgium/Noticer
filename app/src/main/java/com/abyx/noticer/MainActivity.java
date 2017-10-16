@@ -215,9 +215,9 @@ public class MainActivity extends AppCompatActivity implements DialogListener {
      */
     private void setSortIcon(boolean descending){
         if (descending){
-            sortButton.setIcon(R.drawable.ic_sort_descending_white_48dp);
+            sortButton.setIcon(R.drawable.ic_sort_descending_white_24dp);
         } else {
-            sortButton.setIcon(R.drawable.ic_sort_ascending_white_48dp);
+            sortButton.setIcon(R.drawable.ic_sort_ascending_white_24dp);
         }
     }
 

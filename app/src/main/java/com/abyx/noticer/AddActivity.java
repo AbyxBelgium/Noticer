@@ -1,7 +1,6 @@
 package com.abyx.noticer;
 
 import android.content.Intent;
-import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
@@ -23,9 +22,9 @@ public class AddActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_add);
-        occasionLabel = (EditText) findViewById(R.id.occasionLabel);
-        locationLabel = (EditText) findViewById(R.id.locationLabel);
-        priceLabel = (EditText) findViewById(R.id.priceLabel);
+        occasionLabel = findViewById(R.id.occasionLabel);
+        locationLabel = findViewById(R.id.locationLabel);
+        priceLabel = findViewById(R.id.priceLabel);
     }
 
     @Override
